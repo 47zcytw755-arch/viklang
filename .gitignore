@@ -4,3 +4,11 @@ dist
 .env
 .env.*
 !.env.example
+
+# IPN Hand dataset heavy files
+IPN_Hand/frames/
+IPN_Hand/videos/
+*.tar.gz
+*.zip
+*.mp4
+*.avi
