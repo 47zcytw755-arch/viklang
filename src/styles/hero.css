@@ -1,0 +1,296 @@
+.hero {
+  min-height: 94vh;
+  display: grid;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 64px;
+  overflow: hidden;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.02fr) minmax(320px, 0.8fr);
+  gap: clamp(34px, 6vw, 88px);
+  align-items: center;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(245, 240, 232, 0.88);
+  border: 1px solid rgba(240, 160, 48, 0.22);
+  background: rgba(240, 160, 48, 0.08);
+  backdrop-filter: blur(14px);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+h1 {
+  max-width: 850px;
+  font-size: clamp(52px, 8vw, 104px);
+  line-height: 0.95;
+  font-weight: 900;
+}
+
+.hero h1 span {
+  display: block;
+  background: linear-gradient(90deg, #f5f0e8 0%, #f0a030 52%, #e8725a 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.lead {
+  max-width: 700px;
+  color: var(--muted);
+  font-size: clamp(18px, 2vw, 22px);
+  line-height: 1.65;
+  margin-top: 26px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 34px;
+}
+
+.hero-proof {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 34px;
+  max-width: 720px;
+}
+
+.hero-proof div {
+  border-top: 1px solid rgba(240, 160, 48, 0.18);
+  padding-top: 14px;
+}
+
+.hero-proof strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.hero-proof span {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.btn {
+  min-height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 9px;
+  padding: 0 22px;
+  border: 1px solid transparent;
+  font-weight: 900;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  color: #1a1208;
+  background: linear-gradient(135deg, #f5d98a, #f0a030 54%, #e8725a);
+  box-shadow: 0 20px 60px rgba(240, 160, 48, 0.22);
+}
+
+.btn-secondary {
+  color: var(--ink);
+  background: rgba(255, 245, 230, 0.07);
+  border-color: rgba(240, 160, 48, 0.2);
+  backdrop-filter: blur(12px);
+}
+
+.btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.hero-visual {
+  position: relative;
+  min-height: 520px;
+  display: grid;
+  place-items: center;
+}
+
+.brand-mark {
+  background: linear-gradient(135deg, #f0a030, #e8725a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.mac-window {
+  width: min(440px, 90vw);
+  border: 1px solid rgba(240, 160, 48, 0.18);
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(255, 245, 230, 0.09), rgba(255, 245, 230, 0.03)),
+    rgba(15, 17, 23, 0.82);
+  backdrop-filter: blur(24px);
+  box-shadow: var(--shadow);
+  padding: 16px;
+}
+
+.traffic-lights {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.traffic-lights span {
+  width: 12px;
+  height: 12px;
+  border-radius: 99px;
+  background: #ff5f57;
+}
+
+.traffic-lights span:nth-child(2) {
+  background: #febc2e;
+}
+
+.traffic-lights span:nth-child(3) {
+  background: #28c840;
+}
+
+.hand-stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 340px;
+  border-radius: 18px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(240, 160, 48, 0.1), transparent 34%),
+    linear-gradient(135deg, rgba(255, 245, 230, 0.05), rgba(255, 245, 230, 0.015));
+}
+
+.gesture-orbit {
+  position: absolute;
+  width: 300px;
+  aspect-ratio: 1;
+  border: 1px dashed rgba(240, 160, 48, 0.3);
+  border-radius: 50%;
+  animation: spin 18s linear infinite;
+}
+
+.synthetic-hand {
+  position: relative;
+  width: 190px;
+  height: 250px;
+  animation: float 7s ease-in-out infinite;
+}
+
+.palm {
+  position: absolute;
+  left: 52px;
+  bottom: 22px;
+  width: 92px;
+  height: 128px;
+  border-radius: 42px 42px 34px 34px;
+  background: linear-gradient(150deg, rgba(255, 255, 255, 0.94), rgba(245, 217, 138, 0.55));
+  transform: rotate(-7deg);
+}
+
+.finger {
+  position: absolute;
+  bottom: 135px;
+  width: 26px;
+  border-radius: 20px;
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.96), rgba(245, 220, 148, 0.6));
+  transform-origin: bottom center;
+}
+
+.f1 { left: 46px; height: 88px; transform: rotate(-20deg); }
+.f2 { left: 78px; height: 128px; transform: rotate(-8deg); }
+.f3 { left: 111px; height: 118px; transform: rotate(5deg); }
+.f4 { left: 140px; height: 86px; transform: rotate(17deg); }
+
+.thumb {
+  position: absolute;
+  left: 25px;
+  bottom: 88px;
+  width: 34px;
+  height: 82px;
+  border-radius: 22px;
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.94), rgba(245, 220, 148, 0.6));
+  transform: rotate(-53deg);
+  transform-origin: bottom center;
+}
+
+.landmark {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 99px;
+  background: var(--amber);
+  box-shadow: 0 0 18px rgba(240, 160, 48, 0.85);
+}
+
+.lm1 { left: 55px; top: 54px; }
+.lm2 { left: 89px; top: 20px; }
+.lm3 { left: 122px; top: 34px; }
+.lm4 { left: 151px; top: 76px; }
+.lm5 { left: 91px; top: 154px; }
+
+.mini-console {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 10px;
+  align-items: center;
+  margin-top: 12px;
+  border: 1px solid rgba(240, 160, 48, 0.13);
+  background: rgba(0, 0, 0, 0.32);
+  border-radius: 12px;
+  padding: 12px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.mini-console strong {
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.mini-console em {
+  color: var(--amber);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.next-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  color: rgba(245, 240, 232, 0.5);
+  font-size: 13px;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+}
+
+.mouse-line {
+  width: 1px;
+  height: 42px;
+  background: linear-gradient(to bottom, rgba(245, 240, 232, 0.2), rgba(240, 160, 48, 0.85), transparent);
+  animation: down 1.8s ease-in-out infinite;
+}
