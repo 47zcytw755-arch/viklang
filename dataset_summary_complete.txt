@@ -1,0 +1,102 @@
+COMPLETE DATASET SUMMARY
+======================================================================
+Total signs: 93
+INCLUDE-50 signs: 14
+Additional signs: 79
+
+INCLUDE-50 Signs:
+  [OK] bird: 2 sequences
+  [OK] cow: 2 sequences
+  [OK] death: 7 sequences
+  [OK] dog: 2 sequences
+  [OK] election: 7 sequences
+  [OK] father: 1 sequences
+  [OK] monday: 3 sequences
+  [OK] paint: 8 sequences
+  [OK] pen: 7 sequences
+  [OK] priest: 3 sequences
+  [OK] red: 1 sequences
+  [OK] teacher: 3 sequences
+  [OK] window: 7 sequences
+  [OK] year: 4 sequences
+
+Additional Signs:
+  [+] animals: 10 sequences
+  [+] attack: 7 sequences
+  [+] bag: 7 sequences
+  [+] bathroom: 7 sequences
+  [+] bed: 7 sequences
+  [+] bedroom: 7 sequences
+  [+] bill: 7 sequences
+  [+] blue: 1 sequences
+  [+] book: 7 sequences
+  [+] box: 7 sequences
+  [+] brown: 1 sequences
+  [+] card: 7 sequences
+  [+] cat: 2 sequences
+  [+] chair: 7 sequences
+  [+] colours: 5 sequences
+  [+] daughter: 1 sequences
+  [+] days_and_time: 10 sequences
+  [+] doctor: 3 sequences
+  [+] door: 7 sequences
+  [+] dream: 7 sequences
+  [+] energy: 7 sequences
+  [+] fish: 2 sequences
+  [+] food: 14 sequences
+  [+] friday: 3 sequences
+  [+] gift: 7 sequences
+  [+] green: 1 sequences
+  [+] gun: 7 sequences
+  [+] home: 10 sequences
+  [+] hour: 3 sequences
+  [+] jobs: 10 sequences
+  [+] key: 7 sequences
+  [+] kitchen: 7 sequences
+  [+] lawyer: 3 sequences
+  [+] letter: 7 sequences
+  [+] lock: 7 sequences
+  [+] marriage: 7 sequences
+  [+] medicine: 7 sequences
+  [+] minute: 3 sequences
+  [+] money: 7 sequences
+  [+] month: 3 sequences
+  [+] mother: 1 sequences
+  [+] namaste: 0 sequences
+  [+] newspaper: 7 sequences
+  [+] page: 7 sequences
+  [+] paper: 7 sequences
+  [+] parent: 1 sequences
+  [+] patient: 3 sequences
+  [+] peace: 7 sequences
+  [+] pencil: 7 sequences
+  [+] people: 5 sequences
+  [+] photograph: 7 sequences
+  [+] race_ethnicity: 7 sequences
+  [+] religion: 7 sequences
+  [+] ring: 7 sequences
+  [+] saturday: 3 sequences
+  [+] secretary: 3 sequences
+  [+] soap: 7 sequences
+  [+] society: 10 sequences
+  [+] son: 1 sequences
+  [+] student: 3 sequences
+  [+] sunday: 3 sequences
+  [+] table: 7 sequences
+  [+] team: 7 sequences
+  [+] technology: 7 sequences
+  [+] telephone: 7 sequences
+  [+] thankyou: 21 sequences
+  [+] thursday: 3 sequences
+  [+] today: 3 sequences
+  [+] toilet: 14 sequences
+  [+] tomorrow: 3 sequences
+  [+] tool: 7 sequences
+  [+] tuesday: 3 sequences
+  [+] waiter: 3 sequences
+  [+] war: 7 sequences
+  [+] wednesday: 3 sequences
+  [+] week: 3 sequences
+  [+] yellow: 1 sequences
+  [+] yes: 14 sequences
+  [+] yesterday: 3 sequences
